@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>formulario </title>
+</head>
+
+<body>
+    <form action="">
+        <label form="nombre">
+            <span>¿cual es tu nombre?</span>
+            <input type="text" id="nombre" autocomplete="name" required />
+        </label>
+        <label form="gmail">
+            <span>¿cual es tu correo electronico?</span>
+            <input type="text" id="gmail" autocomplete="gamil" required />
+        </label>
+        <label form="direccion">
+            <span>¿cual es tu direccion?</span>
+            <input type="text" id="direccion" autocomplete="direccion" required />
+        </label>
+        <label form="cuidades">
+            <span style="color:rgb(71, 11, 128)"> ¿cual es tu cuidad?</span>
+
+            <span>cuidades</span>
+            <input list="cuidades">
+            <datalist id="cuidades">
+                <option value="huila"></option>
+                <option value="caqueta"></option>
+                <option value="Bogota"></option>
+                <option value="ibague"></option>
+                <option value="Cali"></option>
+            </datalist>
+        </label>
+            <span>¿estas estudiando?</span>
+            <select name="Estudio" id="estudio">
+                <option value="si">si</option>
+                <option value="no">no</option>
+            </select>
+
+        <label form="telefono">
+            <span>¿cual es tu numero telefonico?</span>
+            <input type="text" id="telefono" autocomplete="tefeleno" required />
+        </label>
+        <label form="cp">
+            <span>¿cual es tu codigo postal?</span>
+            <input type="text" name="cp" id="cp" autocomplete="postal-code" required />
+        </label>
+        <label form="fecha">
+            <span>¿cual es tu fecha de viaje?</span>
+            <input type="datetime-local" name="fecha" id="fecha" autocomplete="bday-day" required />
+        </label>
+        <input type="submit" />
+    </form>
+    <figure>
+        <img src="./imagen.jpg" alt="image" height="200" width="200" />
+        <figcaption>es una sandia</figcaption>
+    </figure>
+
+
+    </form>
+    <a href="https://www.google.com">ir a google"</a>
+    <li style="color:aqua">sandia</li>
+    <li style="color:blueviolet">pera</li>
+    <li style="color:blue">manzana</li>
+    <li style="color:rgb(136, 15, 15)">uva</li>
+</body>
+
+</html>
